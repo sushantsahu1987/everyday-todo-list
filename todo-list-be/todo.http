@@ -1,19 +1,23 @@
 # Get todo with id 
 # GET http://localhost:5000/todo/1
+# Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTc5MzU1NTAsIm5iZiI6MTU5NzkzNTU1MCwianRpIjoiZDhiZTM2ZDYtZjk3Ni00NDNhLWEwYzAtOWI4YTQ5ZjZiYTEzIiwiZXhwIjoxNTk3OTM2NDUwLCJpZGVudGl0eSI6eyJ1c2VyX2lkIjoxLCJyb2xlIjoiYWRtaW4ifSwiZnJlc2giOnRydWUsInR5cGUiOiJhY2Nlc3MiLCJ1c2VyX2NsYWltcyI6eyJ1c2VyX3JvbGUiOiJhZG1pbiIsInVzZXJfaWQiOjF9fQ.3igHStaBm3zgAKrpAsoqw5RpuqBsb6J1Byl8ldKBR4A
 
 # Update todo with id
 # PUT http://localhost:5000/todo/1
+# Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTc5MzU1NTAsIm5iZiI6MTU5NzkzNTU1MCwianRpIjoiZDhiZTM2ZDYtZjk3Ni00NDNhLWEwYzAtOWI4YTQ5ZjZiYTEzIiwiZXhwIjoxNTk3OTM2NDUwLCJpZGVudGl0eSI6eyJ1c2VyX2lkIjoxLCJyb2xlIjoiYWRtaW4ifSwiZnJlc2giOnRydWUsInR5cGUiOiJhY2Nlc3MiLCJ1c2VyX2NsYWltcyI6eyJ1c2VyX3JvbGUiOiJhZG1pbiIsInVzZXJfaWQiOjF9fQ.3igHStaBm3zgAKrpAsoqw5RpuqBsb6J1Byl8ldKBR4A
 
 # Get list of todos
 # GET http://localhost:5000/todos
+# Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTc5MzU1NTAsIm5iZiI6MTU5NzkzNTU1MCwianRpIjoiZDhiZTM2ZDYtZjk3Ni00NDNhLWEwYzAtOWI4YTQ5ZjZiYTEzIiwiZXhwIjoxNTk3OTM2NDUwLCJpZGVudGl0eSI6eyJ1c2VyX2lkIjoxLCJyb2xlIjoiYWRtaW4ifSwiZnJlc2giOnRydWUsInR5cGUiOiJhY2Nlc3MiLCJ1c2VyX2NsYWltcyI6eyJ1c2VyX3JvbGUiOiJhZG1pbiIsInVzZXJfaWQiOjF9fQ.3igHStaBm3zgAKrpAsoqw5RpuqBsb6J1Byl8ldKBR4A
 
 # Create a todo
-# POST http://localhost:5000/todo
-# Content-Type: application/json
+POST http://localhost:5000/todo
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTc5MzU1NTAsIm5iZiI6MTU5NzkzNTU1MCwianRpIjoiZDhiZTM2ZDYtZjk3Ni00NDNhLWEwYzAtOWI4YTQ5ZjZiYTEzIiwiZXhwIjoxNTk3OTM2NDUwLCJpZGVudGl0eSI6eyJ1c2VyX2lkIjoxLCJyb2xlIjoiYWRtaW4ifSwiZnJlc2giOnRydWUsInR5cGUiOiJhY2Nlc3MiLCJ1c2VyX2NsYWltcyI6eyJ1c2VyX3JvbGUiOiJhZG1pbiIsInVzZXJfaWQiOjF9fQ.3igHStaBm3zgAKrpAsoqw5RpuqBsb6J1Byl8ldKBR4A
 
-# {
-#     "title":"Take dog for walk"
-# }
+{
+    "title":"Take dog for walk"
+}
 
 # Create a todo with empty fields 
 # POST http://localhost:5000/todo
