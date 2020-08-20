@@ -1,0 +1,38 @@
+# Login with user email & password
+# POST http://localhost:5000/login
+# Content-Type: application/json
+# Authorization: Bearer 123
+# Client-Key: xxx
+
+# {
+#     "email":"sushant87@gmail.com",
+#     "password":"Asdef@123"
+# }
+
+# Logout user
+# POST http://localhost:5000/logout
+# Content-Type: application/json
+# Authorization: Bearer 123
+
+# Get user with id 1
+# GET http://localhost:5000/user/1
+
+# Update user password
+# PUT http://localhost:5000/user/3
+# Content-Type: application/json
+# Authorization: Bearer 123
+
+# {
+#     "email":"sushant87@gmail.com",
+#     "password":"Asdef@123",
+#     "new_password":"Welcome@123"
+# }
+
+# Update user with empty fields
+# PUT http://localhost:5000/user/3
+# Content-Type: application/json
+# Authorization: Bearer 123
+
+# {
+#     "email":"sushant87@gmail.com"
+# }

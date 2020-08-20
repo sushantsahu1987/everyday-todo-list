@@ -1,0 +1,24 @@
+# Get todo with id 
+# GET http://localhost:5000/todo/1
+
+# Update todo with id
+# PUT http://localhost:5000/todo/1
+
+# Get list of todos
+# GET http://localhost:5000/todos
+
+# Create a todo
+# POST http://localhost:5000/todo
+# Content-Type: application/json
+
+# {
+#     "title":"Take dog for walk"
+# }
+
+# Create a todo with empty fields 
+# POST http://localhost:5000/todo
+# Content-Type: application/json
+
+# {
+
+# }
